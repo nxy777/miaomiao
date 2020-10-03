@@ -1,0 +1,14 @@
+/* miniprogram/pages/index/index.wxss */
+/* 轮播图样式 */
+.index-swiper{margin:20rpx;border-radius:10px; overflow:hidden;}
+.index-swiper image{width:100%; border-radius:10px; overflow:hidden;}
+/* 标题样式 */
+.index-tab{display: flex;}
+.index-tab view{flex :1; text-align: center; padding: 10rpx; margin:10px;}
+.index-tab view.active{border-bottom:1px red solid; color: red;}
+/* 标题下面的图片样式 */
+.index-list{ display: flex; flex-wrap: wrap; color:hotpink;}
+.index-list-item{ width:50%; margin:10rpx 0;}
+.index-list-item image{ width:90%; height:250rpx; margin:0 auto; display: block;}
+/* 图片下面的名称点赞样式，文本必须有宽,justify-content:space-between两端点对齐 */
+.index-list-text{ width:90%; margin:0 auto; display: flex; justify-content: space-between;}

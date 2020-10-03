@@ -1,0 +1,4 @@
+<!--miniprogram/pages/editUserInfo/signature/signature.wxml-->
+<button bindtap="handleBtn">设置手机号码</button>
+<!-- 绑定前台输入 -->
+<input type="number" value="{{phoneNumber}}" bindinput="handleText" />

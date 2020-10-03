@@ -1,0 +1,9 @@
+
+var wordSplit = function(word){
+  if( word.length > 4 ){
+    word = word.substring(0,4) + '...';
+  }
+  return word;
+};
+// 对外接口
+module.exports.wordSplit = wordSplit;
