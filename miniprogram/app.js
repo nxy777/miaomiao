@@ -13,7 +13,7 @@ App({
         //   如不填则使用默认环境（第一个创建的环境）
         // env: 'my-env-id',
         //配置云开发环境id
-        env:'dev-2gzx8hmu754cbff6',
+        env:'dev-2g4haj4877d811f5',
         //追踪用户调用（在运营分析，用户访问中可以看到）
         traceUser: true,
         

@@ -16,7 +16,7 @@ Page({
     nickName:"",
     logged:false,
     // 一开始用户无法点击登陆
-    disabled:true,
+    disabled:false,
   },
 
   /**
